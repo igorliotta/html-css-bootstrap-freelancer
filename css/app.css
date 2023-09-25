@@ -1,3 +1,15 @@
+.hero-featured-img > img {
+    max-width: 225px;
+    height: auto;
+}
+
+.star {
+    color: black;
+}
+
+
+/* DEBUG */
+
 .debug .container-fluid,
 .debug .container {
     border: 2px solid orange;
