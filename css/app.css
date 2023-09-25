@@ -6,7 +6,7 @@
 }
 
 .star {
-    color: black;
+    color: blue;
 }
 
 /* PORTFOLIO */
@@ -16,6 +16,10 @@
     border-radius: 20px;
     display: block;
 }
+
+/* CONTACT ME */
+
+
 
 /* MEDIAQUEERY */
 
@@ -36,7 +40,15 @@
         width: 100%;
     }
 
- }
+    .footer-first-col {
+        flex-direction: column;
+    }
+
+    .footer-first-col > .col-4 {
+        width: 100%;
+    }
+
+}
 
 
 @media (min-width: 768px) { 
@@ -54,6 +66,14 @@
 
     .about-col > .col-6 {
         width: 50%;
+    }
+
+    .footer-first-col {
+        flex-direction: row;
+    }
+
+    .footer-first-col > .col-4 {
+        width: 33.3%;
     }
 }
 
