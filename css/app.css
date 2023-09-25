@@ -1,0 +1,15 @@
+.debug .container-fluid,
+.debug .container {
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+.debug .row {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.debug [class^="col"] {
+    border: 2px solid blue;
+    padding: 10px;
+}
