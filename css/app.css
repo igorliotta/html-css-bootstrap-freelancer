@@ -17,7 +17,7 @@
     display: block;
 }
 
-/* MEDIAQUERY */
+/* MEDIAQUEERY */
 
 @media (min-width: 576px) { 
     .col-4 {
@@ -27,6 +27,15 @@
     .portfolio-img {
         max-width: 100%;
     }
+
+    .about-col {
+        flex-direction: column;
+    }
+
+    .about-col > .col-6 {
+        width: 100%;
+    }
+
  }
 
 
@@ -38,7 +47,15 @@
 }
 
 
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+    .about-col {
+        flex-direction: row;
+    }
+
+    .about-col > .col-6 {
+        width: 50%;
+    }
+}
 
 
 @media (min-width: 1200px) { 
@@ -50,6 +67,12 @@
 
 @media (min-width: 1400px) { }
 
+/* RESET */
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
 
 /* DEBUG */
 
