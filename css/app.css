@@ -1,3 +1,5 @@
+/* HERO */
+
 .hero-featured-img > img {
     max-width: 225px;
     height: auto;
@@ -6,6 +8,47 @@
 .star {
     color: black;
 }
+
+/* PORTFOLIO */
+
+.portfolio-img {
+    max-width: 360px;
+    border-radius: 20px;
+    display: block;
+}
+
+/* MEDIAQUERY */
+
+@media (min-width: 576px) { 
+    .col-4 {
+        width: 100%;
+    }
+
+    .portfolio-img {
+        max-width: 100%;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    .col-4 {
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) { 
+    .col-4 {
+        width: 33.3%;
+    }
+}
+
+
+@media (min-width: 1400px) { }
 
 
 /* DEBUG */
