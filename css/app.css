@@ -1,18 +1,38 @@
+/* HEADER */
+
+.page-header {
+    background-color: #2C3E50;
+    color: white;
+}
+
+
+
+
 /* HERO */
 
-.hero-featured-img > img {
-    max-width: 225px;
+.hero-page {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.hero-img {
+    max-width: 260px;
     height: auto;
 }
 
-.star {
-    color: blue;
+.space {
+    background-color: white;
+    width: 10%;
+    height: 3px;
+    border-radius: 999px;
 }
+
 
 /* PORTFOLIO */
 
 .portfolio-img {
     max-width: 360px;
+    height: auto;
     border-radius: 20px;
     display: block;
 }
@@ -48,6 +68,8 @@
         width: 100%;
     }
 
+   
+
 }
 
 
@@ -55,6 +77,9 @@
     .col-4 {
         width: 50%;
     }
+
+  
+
 
 }
 
@@ -75,6 +100,8 @@
     .footer-first-col > .col-4 {
         width: 33.3%;
     }
+
+   
 }
 
 
