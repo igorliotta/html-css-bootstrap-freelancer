@@ -63,6 +63,26 @@
     border-radius: 5px;
 }
 
+/* FOOTER */
+
+.footer-up {
+    background-color: #3A546D;
+}
+
+.footer-down {
+    background-color: #2C3E50;
+}
+
+.green {
+    color: #1ABC9C;
+}
+
+.social {
+    border: 1px solid white;
+    line-height: 2px;
+    border-radius: 50%;
+}
+
 /* MEDIAQUEERY */
 
 @media (min-width: 576px) { 
