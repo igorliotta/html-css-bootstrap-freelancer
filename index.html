@@ -21,10 +21,10 @@
                     </div>
                     <div class="col d-flex justify-content-end align-items-center">
                         <a href="#" class="menu d-block d-lg-none"><i class="fa-solid fa-bars"></i></a>
-                        <ul class="d-flex d-none d-lg-block menu-items list-unstyled">
-                            <li class="item d-inline-block px-2">Portfolio</li>
-                            <li class="item d-inline-block px-2">About</li>
-                            <li class="item d-inline-block px-2">Contact</li>
+                        <ul class="d-flex d-none d-lg-block menu-items list-unstyled text-uppercase">
+                            <li class="item d-inline-block px-2"><a href="#">Portfolio</a></li>
+                            <li class="item d-inline-block px-2"><a href="#">About</a></li>
+                            <li class="item d-inline-block px-2"><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
     
                <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center about-col py-2">
+                    <div class="col-12 d-flex justify-content-center align-items-center about-col py-2">
                         <div class="col offset-1 lh-lg text-light">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
                         <div class="col offset-1 lh-lg text-light">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
                     </div>
@@ -181,29 +181,39 @@
             <div class="row flex-column">
     
                 <div class="col-12 d-flex justify-content-center">
-                    <h2>Contact Me</h2>
+                    <h1 class="h1 text-dark text-uppercase">Contact Me</h1>
                 </div>
     
-                <div class="col-12 d-flex justify-content-center">
-                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="space bg-dark d-inline-block"></div>
+                    <div class="star d-inline-block py-2 px-2"><i class="fa-solid fa-star"></i></div>
+                    <div class="space bg-dark d-inline-block"></div>
                 </div>
     
-                <div class="col-12">
-                    <div class="col">
-                        <input type="text" placeholder="Name">
-                    </div>
-                    <div class="col">
-                        <input type="email" placeholder="Email Andress">
-                    </div>
-                    <div class="col">
-                        <input type="text" placeholder="Phone Number">
-                    </div>
-                    <div class="col">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    </div>
-    
-                    <div class="col-12">
-                        <a href="#">Send</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 offset-1 py-4">
+                            <div class="col">
+                                <input class="border-0 text-dark py-2" type="text" placeholder="Name">
+                            </div>
+                            <div class="space-contact bg-dark"></div>
+                            <div class="col">
+                                <input class="border-0 text-dark py-2" type="email" placeholder="Email Andress">
+                            </div>
+                            <div class="space-contact bg-dark"></div>
+                            <div class="col">
+                                <input class="border-0 text-dark py-2" type="text" placeholder="Phone Number">
+                            </div>
+                            <div class="space-contact bg-dark"></div>
+                            <div class="col">
+                                <textarea class="border-0 text-dark py-2" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <div class="space-contact bg-dark"></div>
+            
+                            <div class="col-12 py-2">
+                                <button class="send-button text-light px-3 py-2 border-0"><a href="#">Send</a></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

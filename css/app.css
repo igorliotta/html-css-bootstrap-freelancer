@@ -51,7 +51,17 @@
 
 /* CONTACT ME */
 
+.space-contact {
+    opacity: 0.5;
+    width: 80%;
+    height: 2px;
+    border-radius: 999px;
+}
 
+.send-button {
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
 
 /* MEDIAQUEERY */
 
