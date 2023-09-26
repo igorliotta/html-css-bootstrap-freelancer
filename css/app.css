@@ -37,6 +37,17 @@
     display: block;
 }
 
+/* ABOUT */
+
+.about-page {
+    background-color: #1ABC9C;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
 
 /* CONTACT ME */
 
@@ -55,6 +66,7 @@
 
     .about-col {
         flex-direction: column;
+        gap: 20px;
     }
 
     .about-col > .col {
